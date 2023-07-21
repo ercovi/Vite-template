@@ -1,0 +1,26 @@
+{
+  "name": "llos-vite-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "rm -rf dist && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.45.0",
+    "eslint-config-manzdev": "^0.0.2",
+    "postcss": "^8.4.26",
+    "postcss-import": "^15.1.0",
+    "postcss-pxtorem": "^6.0.0",
+    "cssnano": "^6.0.1",
+    "stylelint": "^15.10.2",
+    "stylelint-config-manzdev": "^0.0.10",
+    "vite": "^4.4.5"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {}
+}
